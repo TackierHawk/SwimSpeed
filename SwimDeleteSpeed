@@ -1,0 +1,17 @@
+---- Made by 1dl5 ----
+local water = game.Workspace:GetChildren()
+local plr = game.Players.LocalPlayer
+local char = plr.Character
+
+plr.PlayerGui.GameGui.Swim.SwimBP:Destroy()
+
+for i,v in pairs(water) do
+	if v.Name == "Water" then
+		v:Destroy()
+	end
+end
+
+while true do
+	wait(1)
+	char.LocalHumanoid.WalkSpeed = 24
+end
