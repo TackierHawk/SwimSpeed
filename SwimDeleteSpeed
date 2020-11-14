@@ -14,5 +14,5 @@ end
 
 while true do
 	wait(1)
-	char.LocalHumanoid.WalkSpeed = 24
+	char.Humanoid.WalkSpeed = 24
 end
